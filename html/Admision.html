@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style1.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img src="../img/cabecera_IesCanarias.jpg" alt="error">
+    </header>
+        <nav>
+            <ul>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="Calendario.html">Calendario Escolar</a></li>
+                <li><a href="consejo.html">Consejo Escolar</a></li>
+                <li><a href="Admision.html" class="especial">Admision y Matricula</a></li>
+                <li><a href="Profesorado.html">Profesorado</a></li>
+                <li><a href="Enlace.html">Enlace a pagina web</a></li>
+            </ul>
+            <br>
+            <p>Nombre: Aarón Dávila Gutiérrez</p>
+        </nav>
+        
+        <section>
+        <form action="envioDatos.php" method="post">
+            <h1><strong>Formulario de Matriculacion en los modulos</strong></h1>
+            <label for="">Nombre</label>
+            <input type="text">
+            <label for="">Apellidos</label>
+            <input type="text">
+            <label for="">sexo</label>
+            <input type="radio" name="sexo">
+            <label for="">M</label>
+            <input type="radio" name="sexo">
+            <label for="">H</label>
+            <br>
+            <br>
+            <label for="">Fecha de nacimiento</label>
+            <select name="" id="">
+                <option value="">dia</option>
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+                <option value="">4</option>
+                <option value="">5</option>
+                <option value="">6</option>
+                <option value="">7</option>
+                <option value="">8</option>
+                <option value="">9</option>
+                <option value="">10</option>
+                <option value="">11</option>
+                <option value="">12</option>
+                <option value="">13</option>
+                <option value="">14</option>
+                <option value="">15</option>
+                <option value="">16</option>
+                <option value="">17</option>
+                <option value="">18</option>
+                <option value="">19</option>
+                <option value="">20</option>
+                <option value="">21</option>
+                <option value="">22</option>
+                <option value="">23</option>
+                <option value="">24</option>
+                <option value="">25</option>
+                <option value="">26</option>
+                <option value="">27</option>
+                <option value="">28</option>
+                <option value="">29</option>
+                <option value="">30</option>
+                <option value="">31</option>
+            </select>
+            <select name="" id="">
+                <option value="">mes</option>
+                <option value="">enero</option>
+                <option value="">febrero</option>
+                <option value="">marzo</option>
+                <option value="">abril</option>
+                <option value="">mayo</option>
+                <option value="">junio</option>
+                <option value="">julio</option>
+                <option value="">agosto</option>
+                <option value="">septiembre</option>
+                <option value="">octubre</option>
+                <option value="">noviembre</option>
+                <option value="">diciembre</option>
+            </select>
+            <select name="" id="">
+                <option value="">año</option>
+                <option value="">2000</option>
+                <option value="">2001</option>
+                <option value="">2002</option>
+                <option value="">2003</option>
+                <option value="">2004</option>
+                <option value="">2005</option>
+                <option value="">2006</option>
+                <option value="">2007</option>
+                <option value="">2008</option>
+                <option value="">2009</option>
+                <option value="">2010</option>
+                <option value="">2011</option>
+                <option value="">2012</option>
+                <option value="">2013</option>
+                <option value="">2014</option>
+                <option value="">2015</option>
+                <option value="">2016</option>
+                <option value="">2017</option>
+                <option value="">2018</option>
+                <option value="">2019</option>
+                <option value="">2020</option>
+                <option value="">2021</option>
+                <option value="">2022</option>
+                <option value="">2023</option>
+            </select>
+            <p><strong>Escoge los modulos en los que te matriculas</strong></p>
+            <div id="modulos">
+                <div id="hijo1">
+                    <label><input type="checkbox" id="modulo1"> Fundamentos de Hardware</label><br>
+                    <label><input type="checkbox" id="modulo2"> Gestión de Base de Datos</label><br>
+                    <label><input type="checkbox" id="modulo3"> Implantación de Sistemas Operativos</label><br>
+                    <label><input type="checkbox" id="modulo4"> Planificación y Administración de Redes</label><br>
+                    <label><input type="checkbox" id="modulo5"> Lenguaje de Marcas y Sistemas de Gestión de Información</label><br>
+                    <label><input type="checkbox" id="modulo6"> Formación y Orientación Laboral</label><br>
+                    <label><input type="checkbox" id="modulo7"> Proyecto de Administración de Sistemas Informáticos en Red</label><br>
+                    <label><input type="checkbox" id="modulo8"> Programación</label><br>
+                </div>
+                <div id="hijo2">
+                    <label><input type="checkbox" id="modulo9"> Servicios de red e internet</label><br>
+                    <label><input type="checkbox" id="modulo10"> Administración de Sistemas Operativos</label><br>
+                    <label><input type="checkbox" id="modulo11"> Implantación de Aplicaciones Web</label><br>   
+                    <label><input type="checkbox" id="modulo12"> Administración de Sistemas Gestores de Bases de Datos</label><br>
+                    <label><input type="checkbox" id="modulo13"> Seguridad y Alta Disponibilidad</label><br>
+                    <label><input type="checkbox" id="modulo14"> Empresa e Iniciativa Emprendedora</label><br>
+                    <label><input type="checkbox" id="modulo15"> Formación en Centros de Trabajo</label><br>
+                    <label><input type="checkbox" id="modulo16"> Formación en Centros de Trabajo</label><br>
+                </div>
+            </div>
+
+            <p><strong>Estudios Previos</strong></p>
+                <textarea name="" id=""></textarea>
+            <br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Restablecer">
+
+            <p><strong>Pulsa el boton "Enviar" para formalizar la matricula o el boton de "restablecer" para limpiar el formulario</strong></p>
+        </form>
+        </section>
+        <footer>
+            <p>&copy Gobierno de Canarias <span>Aviso Legal de privacidad Sugerencias y reclamaciones</span></p>
+        </footer>
+</body>
+</html>
